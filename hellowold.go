@@ -1,9 +1,19 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
-	fmt.Println("aplikasi veris 2")
+
+	// for i := 1; i < 11; i++ {
+
+	// 	fmt.Println(i)
+	// }
+
+	var names [4]string
+	names[0] = "trafalgar"
+	names[1] = "d"
+	names[2] = "water"
+	names[3] = "law"
+
+	fmt.Println(names[2])
 }
